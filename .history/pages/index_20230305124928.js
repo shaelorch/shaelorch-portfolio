@@ -46,7 +46,6 @@ export default function Home() {
         <h1 className={styles.herotxt}>Junior UX|UI Designer</h1>
       </div>
 
-
      
       
 

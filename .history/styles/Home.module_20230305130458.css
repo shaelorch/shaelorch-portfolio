@@ -95,11 +95,11 @@
 .herotxt:hover {
   display: flex;
   color:black;
-  filter: drop-shadow(5px 1px 10px white);
+  box-shadow: 10px 1px 1px 10px black;
   font-family: cabin, sans-serif;
   margin-top:-10px;
   animation-name: Fade;
-  animation-duration: 2s ;
+  animation-duration: 1s ;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }

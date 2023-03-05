@@ -95,7 +95,7 @@
 .herotxt:hover {
   display: flex;
   color:black;
-  filter: drop-shadow(5px 1px 10px white);
+  filter: drop-shadow(50px 1px 4px white);
   font-family: cabin, sans-serif;
   margin-top:-10px;
   animation-name: Fade;

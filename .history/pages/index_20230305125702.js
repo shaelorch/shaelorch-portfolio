@@ -42,10 +42,15 @@ export default function Home() {
       <div onClick={playMotion} className={styles.img} >
         <Image  src="/shae.svg" width={300} height={300}/>
       </div>
-      <div>
+      {/* <div>
         <h1 className={styles.herotxt}>Junior UX|UI Designer</h1>
-      </div>
+      </div> */}
 
+  <div class="container">
+    <div class="glitch" data-text="SHAE">Junior UX|UI Designer</div>
+    <div class="glow">Junior UX|UI Designer</div>
+    </div>
+    <div class="scanlines"></div>
 
      
       
