@@ -9,6 +9,9 @@ import SwitchActive from '../components/switchactive';
 import Lottie from "lottie-react";
 import introAnimation from "/public/animations/lottie.json";
 import PCard from '../components/pCard';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 export default function Home() {
 
@@ -24,15 +27,15 @@ export default function Home() {
       <NavBar/>
       <main className={styles.main}>
       
+      <Carousel showArrows={true} showIndicators={false} showStatus={false} >
         <div className={styles.carouselcont}>
           <PCard/>
           <PCard img='/thikwick.png' cardtxt='Thik Wick Candle Co' txttype='Website'/>
           <PCard img='/realeasy.jpg' cardtxt='RealEasy' txttype='Web Application'/>
           <PCard img='/localscoop.jpg' cardtxt='Local Scoop' txttype='Web Application'/>
-          
         </div>
         
-     
+      </Carousel>
        
      
       

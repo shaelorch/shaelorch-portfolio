@@ -51,12 +51,6 @@
   to   { opacity: 1; }
 }
 
-.carouselcont {
-  display: flex;
-  flex-direction: row;
-  
-}
-
 .pimg {
     border-radius: 30px;
     padding:15px;
@@ -64,20 +58,16 @@
 
 .pcont {
   display:flex;
-  height:300px;
+  height:280px;
   width:240px;
   justify-content: center;
-  margin-left:50px;
+  
 }
 
 .pcard {
   align-content: center;
   background-color:white;
   border-radius:20px;
-  color:black;
-  text-align: center;
-  line-height: .5;
-  
 }
 
 

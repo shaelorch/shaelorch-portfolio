@@ -67,7 +67,7 @@
   height:300px;
   width:240px;
   justify-content: center;
-  margin-left:50px;
+  box-shadow: -3px 5px 30px darkgrey;
 }
 
 .pcard {
@@ -77,7 +77,6 @@
   color:black;
   text-align: center;
   line-height: .5;
-  
 }
 
 

@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@coreui/react": "^4.6.0",
     "@lottiefiles/lottie-player": "^1.7.1",
     "@lottiefiles/react-lottie-player": "^3.5.2",
     "lottie-react": "^2.4.0",
     "lottie-react-native": "^5.1.5",
     "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
     "eslint": "8.35.0",

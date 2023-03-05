@@ -41,7 +41,7 @@
   display: flex;
   margin-left:15%;
   margin-right:10%;
-  color:black;
+  color:rgb(69, 69, 69);
   animation: 1s ease-out 0s 1 slideInFromTop;
   
 }
@@ -49,12 +49,6 @@
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-}
-
-.carouselcont {
-  display: flex;
-  flex-direction: row;
-  
 }
 
 .pimg {
@@ -67,17 +61,16 @@
   height:300px;
   width:240px;
   justify-content: center;
-  margin-left:50px;
+  box-shadow: -3px 5px 30px darkgrey;
 }
 
 .pcard {
   align-content: center;
   background-color:white;
   border-radius:20px;
-  color:black;
+  color:rgb(69, 69, 69);
   text-align: center;
   line-height: .5;
-  
 }
 
 
