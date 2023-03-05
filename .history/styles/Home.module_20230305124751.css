@@ -92,8 +92,8 @@
 
 .switchcont {
  display: flex;
- position:absolute;
- margin-top:40%;
+ position:sticky;
+ margin-top:80px;
 }
 
 .switch {

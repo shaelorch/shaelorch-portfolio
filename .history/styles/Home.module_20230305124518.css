@@ -92,8 +92,8 @@
 
 .switchcont {
  display: flex;
- position:absolute;
- margin-top:40%;
+ position:relative;
+ margin-top:60px;
 }
 
 .switch {
@@ -208,7 +208,7 @@
 }
 
 
-/* 
+
 
 .footer {
   display: flex;
@@ -226,7 +226,7 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-} */
+}
 
 .title a {
   color: #0070f3;

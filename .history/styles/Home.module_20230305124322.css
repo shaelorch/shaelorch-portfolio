@@ -92,8 +92,8 @@
 
 .switchcont {
  display: flex;
- position:absolute;
- margin-top:40%;
+ position:relative;
+ margin-top:80px;
 }
 
 .switch {
@@ -208,7 +208,7 @@
 }
 
 
-/* 
+
 
 .footer {
   display: flex;
@@ -226,7 +226,7 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-} */
+}
 
 .title a {
   color: #0070f3;
@@ -326,7 +326,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top:1%;
+    margin-top:50px;
     animation: fadein 2s;
   
   }
