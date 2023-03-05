@@ -8,7 +8,6 @@ import Switch from '../components/switch';
 import SwitchActive from '../components/switchactive';
 import Lottie from "lottie-react";
 import introAnimation from "/public/animations/lottie.json";
-import animationData from "../public/animations/Comp 2.json";
 
 
 
@@ -27,7 +26,10 @@ export default function Home() {
   };
 
     const playMotion = () => {
-     
+      return (
+       
+      )
+       
     }
        
   return (
@@ -39,11 +41,9 @@ export default function Home() {
       </Head>
       <NavBar/>
       <main className={styles.main}>
-
-    
       
-      <div onClick={playMotion} className={styles.img} >
-        <Image  src="/shae.svg" width={300} height={300}/>
+      <div className={styles.img} >
+        <Image onClick={playMotion} src="/shae.svg" width={300} height={300}/>
       </div>
       <div>
         <h1 className={styles.herotxt}>Junior UX|UI Designer</h1>

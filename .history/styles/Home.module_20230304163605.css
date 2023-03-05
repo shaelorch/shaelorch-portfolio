@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top:-150px;
-  animation: fadein 2s;
+ 
 
 }
 
@@ -43,7 +43,7 @@
   margin-right:10%;
   color:black;
   animation: 1s ease-out 0s 1 slideInFromTop;
-  
+  transition: fadein 2s;
 }
 
 @keyframes fadein {
@@ -78,7 +78,6 @@
 
   display: flex;
   justify-content: center;
-  animation: fadein 2s;
   
 }
 

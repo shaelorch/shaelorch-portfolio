@@ -40,7 +40,15 @@ export default function Home() {
       <NavBar/>
       <main className={styles.main}>
 
-    
+      <div>
+      <Player
+      autoplay
+      loop
+      src={animationData}
+      style={{ height: '300px', width: '300px' }}
+    >
+    </Player>
+    </div>
       
       <div onClick={playMotion} className={styles.img} >
         <Image  src="/shae.svg" width={300} height={300}/>

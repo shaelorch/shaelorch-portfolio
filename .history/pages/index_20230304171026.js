@@ -9,7 +9,7 @@ import SwitchActive from '../components/switchactive';
 import Lottie from "lottie-react";
 import introAnimation from "/public/animations/lottie.json";
 import animationData from "../public/animations/Comp 2.json";
-
+import { Player } from '@lottiefiles/react-lottie-player';
 
 
 
@@ -40,7 +40,15 @@ export default function Home() {
       <NavBar/>
       <main className={styles.main}>
 
-    
+      <div>
+      <Player
+      autoplay
+      loop
+      src={animationData}
+      style={{ height: '300px', width: '300px' }}
+    >
+    </Player>
+    </div>
       
       <div onClick={playMotion} className={styles.img} >
         <Image  src="/shae.svg" width={300} height={300}/>

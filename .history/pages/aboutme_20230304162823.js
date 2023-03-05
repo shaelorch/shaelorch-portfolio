@@ -26,7 +26,7 @@ export default function Home() {
       <NavBar/>
       <main className={styles.main}>
 
-        <div className={styles.about}>
+        <div className={styles.aboutmain}>
             <div className={styles.text}>
             <h2>Hi, I’m Shae!
              A BCIT Digital Design and Development
@@ -40,7 +40,7 @@ export default function Home() {
 
                 <div className={styles.vl}></div>
 
-            <div className={styles.imgdiv} style={{marginLeft:"15%", marginRight:"15%"}}>
+            <div style={{marginLeft:"15%", marginRight:"15%"}}>
                 <Image className={styles.headshot} src="/headshot.png" width={300} height={300}/>
                 <Image className={styles.circle} src="/circle.png" width={300} height={300}/>
 

@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top:-150px;
-  animation: fadein 2s;
+ 
 
 }
 
@@ -43,14 +43,8 @@
   margin-right:10%;
   color:black;
   animation: 1s ease-out 0s 1 slideInFromTop;
-  
+  transition: opacity 2s ease-in;
 }
-
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
 
 .vl {
   border-left: 6px solid rgba(255, 255, 255, 0.511);
@@ -78,7 +72,6 @@
 
   display: flex;
   justify-content: center;
-  animation: fadein 2s;
   
 }
 

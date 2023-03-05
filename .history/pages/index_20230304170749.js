@@ -13,7 +13,6 @@ import animationData from "../public/animations/Comp 2.json";
 
 
 
-
 export default function Home() {
  
   
@@ -27,7 +26,16 @@ export default function Home() {
   };
 
     const playMotion = () => {
-     
+      return (
+        <div>
+      <Lottie 
+	      options={defaultOptions}
+        height={400}
+        width={400}
+      />
+    </div>
+      )
+       
     }
        
   return (
@@ -40,7 +48,13 @@ export default function Home() {
       <NavBar/>
       <main className={styles.main}>
 
-    
+      <div>
+      <Lottie 
+	      options={defaultOptions}
+        height={400}
+        width={400}
+      />
+    </div>
       
       <div onClick={playMotion} className={styles.img} >
         <Image  src="/shae.svg" width={300} height={300}/>

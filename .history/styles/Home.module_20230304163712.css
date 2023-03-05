@@ -22,7 +22,6 @@
   align-items: center;
   justify-content: space-between;
   margin-top:-150px;
-  animation: fadein 2s;
 
 }
 
@@ -78,7 +77,6 @@
 
   display: flex;
   justify-content: center;
-  animation: fadein 2s;
   
 }
 
