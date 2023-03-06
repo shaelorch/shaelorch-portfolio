@@ -52,9 +52,8 @@
 }
 
 .carouselcont {
-  display:flex;
+  display: flex;
   flex-direction: row;
-
   
 }
 
@@ -68,9 +67,8 @@
   height:300px;
   width:240px;
   justify-content: center;
-  margin-left:5%;
+  margin-left:50px;
   align-content: center;
-  
 }
 
 .pcard {
@@ -79,9 +77,8 @@
   color:black;
   text-align: center;
   line-height: .5;
-
+  
 }
-
 
 .pbutton {
 
@@ -92,24 +89,7 @@
   width:70%;
   justify-content: center;
   margin-left:15%;
-  border-radius: 10px;
-  border: 0.5px solid black;
-  font-family: cabin, sans-serif;
-
-}
-
-.pbutton:hover {
-
-  display: flex;
-  background-color: black;
-  color:white;
-  padding:8px;
-  width:70%;
-  justify-content: center;
-  margin-left:15%;
-  border-radius: 10px;
-
-  font-family: cabin, sans-serif;
+  border-radius: 20px;
 
 }
 

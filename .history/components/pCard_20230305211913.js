@@ -14,6 +14,7 @@ export default function PCard({
             <Image className={styles.pimg} src={img} width={266} height={177}/>
             <h2>{cardtxt}</h2>
             <h3>{txttype}</h3>
+
             <button className={styles.pbutton}>View Case Study</button>
 
         </div>

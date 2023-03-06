@@ -82,6 +82,14 @@
 
 }
 
+.pcard:hover {
+  background-color:white;
+  border-radius:20px;
+  color:black;
+  text-align: center;
+  line-height: .5;
+  
+  
 
 .pbutton {
 

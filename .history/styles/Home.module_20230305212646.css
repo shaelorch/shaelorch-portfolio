@@ -52,9 +52,8 @@
 }
 
 .carouselcont {
-  display:flex;
+  display: flex;
   flex-direction: row;
-
   
 }
 
@@ -68,9 +67,8 @@
   height:300px;
   width:240px;
   justify-content: center;
-  margin-left:5%;
+  margin-left:50px;
   align-content: center;
-  
 }
 
 .pcard {
@@ -79,9 +77,16 @@
   color:black;
   text-align: center;
   line-height: .5;
-
 }
 
+.pcard:hover {
+  background-color:white;
+  border-radius:20px;
+  color:black;
+  text-align: center;
+  line-height: .5;
+  padding:20px;
+}
 
 .pbutton {
 

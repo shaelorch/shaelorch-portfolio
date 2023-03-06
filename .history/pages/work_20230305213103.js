@@ -27,13 +27,14 @@ export default function Home() {
         <div className={styles.carouselcont}>
           <PCard/>
           <PCard img='/thikwick.png' cardtxt='Thik Wick Candle Co' txttype='Website'/>
-          <PCard img='/realeasy.jpg' cardtxt='RealEasy' txttype='Web Application'/>
-          <PCard img='/localscoop.jpg' cardtxt='Local Scoop' txttype='Web Application'/>
           
         </div>
 
-        
-     
+        <div className={styles.carouselcont}>
+        <PCard img='/realeasy.jpg' cardtxt='RealEasy' txttype='Web Application'/>
+        <PCard img='/localscoop.jpg' cardtxt='Local Scoop' txttype='Web Application'/>
+          
+        </div>
         
      
        
