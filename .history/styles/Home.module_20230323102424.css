@@ -10,8 +10,8 @@
   
 }
 
-.p, .h3, .paragraph {
-  font-family:Figtree, sans-serif;
+p, h3 {
+  font-family:'Figtree', sans-serif;
 }
 
 .workcontainer {

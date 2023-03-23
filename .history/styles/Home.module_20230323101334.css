@@ -10,10 +10,6 @@
   
 }
 
-.p, .h3, .paragraph {
-  font-family:Figtree, sans-serif;
-}
-
 .workcontainer {
   padding: 0 2rem;
   background-color: #BBCEE9;
@@ -197,7 +193,7 @@
   width:120%;
   height:30px;
   font-family: cabin, sans-serif;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .switchcont {

@@ -6,8 +6,7 @@ import Link from 'next/link'
 export default function PCard({
     img="/menu.jpg",
     cardtxt="MEnU",
-    txttype="web application",
-    link="/thikWick"
+    txttype="web application"
 }) {
 
     return (<div className={styles.pcont}>
@@ -16,7 +15,7 @@ export default function PCard({
             <Image className={styles.pimg} alt="project" src={img} width={266} height={177}/>
             <h2>{cardtxt}</h2>
             <h3>{txttype}</h3>
-            <Link href={link}>
+            <Link>
                 <button className={styles.pbutton}>View Case Study</button>
             </Link>
             
