@@ -73,7 +73,7 @@ export default function CForm() {
  
 
         {setSubmit &&
-          <Text fontFamily={'cabin, sans-serif'} fontSize={35}style={{color:'black'}}>Let&apos;s Talk!</Text>
+          <Text fontFamily={'cabin, sans-serif'} fontSize={35}style={{color:'black'}}>Let&aposs Talk!</Text>
         }
 
         { submit && (
